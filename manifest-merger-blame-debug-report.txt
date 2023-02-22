@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sdp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:5:5-30:19
+12        android:allowBackup="true"
+12-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/lanakareem/.gradle/caches/transforms-3/9df45a95e4e06a011612ef3452b5826c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.SDP" >
+22-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:13:9-41
+23        <activity
+23-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:15:9-29:20
+24            android:name="com.example.sdp.MainActivity"
+24-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:16:13-41
+25            android:exported="true"
+25-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:17:13-36
+26            android:label="@string/app_name"
+26-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:18:13-45
+27            android:theme="@style/Theme.SDP.NoActionBar" >
+27-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:19:13-57
+28            <intent-filter>
+28-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:20:13-24:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:21:17-69
+29-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:21:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:23:17-77
+31-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:23:27-74
+32            </intent-filter>
+33
+34            <meta-data
+34-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:26:13-28:36
+35                android:name="android.app.lib_name"
+35-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:27:17-52
+36                android:value="" />
+36-->/Users/lanakareem/AndroidStudioProjects/SDP/app/src/main/AndroidManifest.xml:28:17-33
+37        </activity>
+38
+39        <uses-library
+39-->[androidx.window:window:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+40            android:name="androidx.window.extensions"
+40-->[androidx.window:window:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+41            android:required="false" />
+41-->[androidx.window:window:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+42        <uses-library
+42-->[androidx.window:window:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+43            android:name="androidx.window.sidecar"
+43-->[androidx.window:window:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+44            android:required="false" />
+44-->[androidx.window:window:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/e65b8465f5bac02dec998c398cfe1021/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/890798958823e1ddb9191fb82e555b3f/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/890798958823e1ddb9191fb82e555b3f/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+48            android:authorities="com.example.sdp.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/890798958823e1ddb9191fb82e555b3f/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/890798958823e1ddb9191fb82e555b3f/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/890798958823e1ddb9191fb82e555b3f/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/890798958823e1ddb9191fb82e555b3f/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/lanakareem/.gradle/caches/transforms-3/890798958823e1ddb9191fb82e555b3f/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lanakareem/.gradle/caches/transforms-3/98559743d14cc19cc4c8b0530b0c3c74/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lanakareem/.gradle/caches/transforms-3/98559743d14cc19cc4c8b0530b0c3c74/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/lanakareem/.gradle/caches/transforms-3/98559743d14cc19cc4c8b0530b0c3c74/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
